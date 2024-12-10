@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .father {
+        width: 500px;
+        height: 500px;
+        background-color: pink;
+        position: relative;
+      }
+      .son {
+        width: 200px;
+        height: 200px;
+        background-color: skyblue;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="son"></div>
+    </div>
+    <script>
+      const father = document.querySelector('.father');
+      const son = document.querySelector('.son');
+      document.addEventListener(
+        'click',
+        () => {
+          console.log('我是爷爷');
+        },
+        true
+      );
+      father.addEventListener('click', () => {
+        console.log('我是爸爸');
+      });
+      son.addEventListener('click', () => {
+        console.log('我是儿子');
+      });
+    </script>
+  </body>
+</html>

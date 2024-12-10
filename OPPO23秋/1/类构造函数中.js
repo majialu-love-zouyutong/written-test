@@ -6,7 +6,9 @@ class Animal {
 
 class Dog extends Animal {
   constructor(name, age) {
-    super(name); // 相当于调用了父类的构造函数
+    // 这里要注意，在派生类的构造函数中调用super()，必须在使用this之前调用
+    // 相当于调用了父类的构造函数
+    super(name); 
     this.age = age;
   }
 }

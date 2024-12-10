@@ -2,10 +2,10 @@ class Animal {
   constructor(name) {
     this.name = name;
   }
-  getName() {
-    return this.name;
-  }
+  static age = 10;
+  age = 20;
 }
+Animal.prototype.age = 30;
 
 class Dog extends Animal {
   constructor(name, age) {
@@ -17,6 +17,13 @@ class Dog extends Animal {
     // // 相当于
     // return this.__proto__.getName.call(this);
   }
+  getAge() {
+    return super.age;
+  }
+  static getAge() {
+    return super.age;
+  }
 }
-const dog = new Dog("旺财", 3);
-console.log(dog.getName());
+const dog = new Dog('旺财', 3);
+console.log(dog.getAge());
+console.log(Dog.getAge());
