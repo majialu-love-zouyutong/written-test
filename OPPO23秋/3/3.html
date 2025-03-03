@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
 
@@ -13,22 +10,21 @@
     <button id="btn" type="button">点我</button>
 
     <script type="text/javascript">
-      document
-        .getElementById('btn')
-        .addEventListener('click', function () {
-          console.log('hello');
-        });
-      document
-        .getElementById('btn')
-        .addEventListener('click', function () {
-          console.log('hello nowcoder');
-        });
-      document.getElementById('btn').onclick = function () {
-        console.log('hello 123');
-      };
-      document.getElementById('btn').onclick = function () {
-        console.log('hello 456');
-      };
+      // function fn() {
+      //   console.log('hello');
+      // }
+      document.getElementById('btn').addEventListener('click', function () {
+        console.log('hello');
+      });
+      document.getElementById('btn').addEventListener('click', function () {
+        console.log('hello');
+      });
+      // document.getElementById('btn').onclick = function () {
+      //   console.log('hello 123');
+      // };
+      // document.getElementById('btn').onclick = function () {
+      //   console.log('hello 456');
+      // };
     </script>
   </body>
 </html>

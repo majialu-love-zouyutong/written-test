@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
     <style>
-        div {
-            width: 20px;
-            height: 20px;
-        }
-        .item1 {
-            z-index: -10;
-            background-color: yellow;
-        }
-        .item2 {
-            position: fixed;
-            z-index: 1;
-            background-color: red;
-            margin-top: 10px;
-        }
-        .item3 {
-            position: fixed;
-            z-index: -1;
-            background-color: green;
-            margin-top: 40px;
-        }
-        .son {
-            position: fixed;
-            z-index: 100;
-            background-color: black;
-            margin-top: 30px;
-        }
+      div {
+        width: 20px;
+        height: 20px;
+      }
+      .item1 {
+        z-index: -10;
+        background-color: yellow;
+      }
+      .item2 {
+        position: fixed;
+        z-index: 1;
+        background-color: red;
+        margin-top: 10px;
+      }
+      .item3 {
+        position: fixed;
+        z-index: -1;
+        background-color: green;
+        margin-top: 40px;
+      }
+      .son {
+        position: fixed;
+        z-index: 100;
+        background-color: skyblue;
+        margin-top: 30px;
+      }
     </style>
-</head>
-<body>
-    <div class="item1"></div>
-    <div class="item2"></div>
+  </head>
+  <body>
+    <div class="item1">item1</div>
+    <div class="item2">item2</div>
     <div class="item3">
-        <div class="son"></div>
+      <div class="son">son</div>
     </div>
-</body>
+  </body>
 </html>

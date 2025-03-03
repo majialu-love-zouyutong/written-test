@@ -6,15 +6,18 @@
     <title>Document</title>
   </head>
   <body>
-    <button onclick="console.log('hello')" id="btn" type="button">点我</button>
+    <button id="btn" type="button">点我</button>
     <script>
-      // const btn = document.querySelector('#btn');
-      // btn.onclick = function () {
-      //   console.log('hello');
-      // };
-      // btn.onclick = function () {
-      //   console.log('hello nowcoder');
-      // };
+      const btn = document.querySelector('#btn');
+      btn.onclick = function () {
+        console.log('hello');
+      };
+      btn.onclick = function () {
+        console.log('hello nowcoder');
+      };
+      btn.onclick = function () {
+        console.log('123');
+      };
     </script>
   </body>
 </html>

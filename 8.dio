@@ -1,0 +1,192 @@
+<mxfile host="65bd71144e">
+    <diagram id="eyyDCM0nSM1MxquzgQ7L" name="第 1 页">
+        <mxGraphModel dx="1173" dy="883" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" parent="1" source="3" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" parent="1" vertex="1">
+                    <mxGeometry x="392" y="163" width="28.000000000000004" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=classic;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="234" y="188" as="sourcePoint"/>
+                        <mxPoint x="357" y="188" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="shape=message;html=1;outlineConnect=0;" parent="4" vertex="1">
+                    <mxGeometry width="20" height="14" relative="1" as="geometry">
+                        <mxPoint x="-10" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="&lt;font color=&quot;#000000&quot;&gt;发送端邮件服务器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="339" y="220.5" width="114" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="188" y="163" width="42" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="桌面应用&lt;br&gt;如: outlook等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="173" y="213" width="87" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" parent="1" source="11" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;fontColor=#000000;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="529" y="155" width="103.97" height="65.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Internet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="551.49" y="177.5" width="59" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" parent="1" vertex="1">
+                    <mxGeometry x="734" y="163" width="28.000000000000004" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font color=&quot;#000000&quot;&gt;接收方邮件服务器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="691" y="218" width="114" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="888" y="166" width="42" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="发送方" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="182" y="133" width="54" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="接收方" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="882" y="137" width="54" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=classic;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="481" y="117" as="sourcePoint"/>
+                        <mxPoint x="638.9999999999999" y="117" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="477" y="144"/>
+                            <mxPoint x="514" y="124"/>
+                            <mxPoint x="557" y="118"/>
+                            <mxPoint x="627" y="124"/>
+                            <mxPoint x="666" y="141"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="shape=message;html=1;outlineConnect=0;" parent="26" vertex="1">
+                    <mxGeometry width="20" height="14" relative="1" as="geometry">
+                        <mxPoint x="-10" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="&lt;font color=&quot;#e51400&quot;&gt;&lt;b&gt;POP3/IMAP&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="777" y="159" width="83" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=classic;html=1;strokeColor=#B20000;fillColor=#e51400;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="764" y="188" as="sourcePoint"/>
+                        <mxPoint x="891" y="188" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="shape=message;html=1;outlineConnect=0;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="29" vertex="1">
+                    <mxGeometry width="20" height="14" relative="1" as="geometry">
+                        <mxPoint x="-10" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;SMTP&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#e51400;" parent="1" vertex="1">
+                    <mxGeometry x="285" y="151.75" width="51" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;SMTP&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#e51400;" parent="1" vertex="1">
+                    <mxGeometry x="548" y="82" width="51" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="桌面应用&lt;br&gt;如: outlook等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="868" y="210.5" width="87" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="36" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+                    <mxGeometry x="413" y="458" width="28.000000000000004" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="endArrow=classic;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="255" y="483" as="sourcePoint"/>
+                        <mxPoint x="378" y="483" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="37">
+                    <mxGeometry width="20" height="14" relative="1" as="geometry">
+                        <mxPoint x="-10" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="&lt;font color=&quot;#000000&quot;&gt;发送端邮件服务器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="515.5" width="114" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="209" y="458" width="42" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Web应用&lt;br&gt;如网易邮箱网页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="187" y="508" width="102" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="43" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="450" width="103.97" height="65.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Internet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="572.49" y="472.5" width="59" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+                    <mxGeometry x="755" y="458" width="28.000000000000004" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;font color=&quot;#000000&quot;&gt;接收方邮件服务器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="712" y="513" width="114" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="909" y="461" width="42" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="发送方" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="203" y="428" width="54" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="接收方" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="903" y="432" width="54" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="endArrow=classic;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="36" target="45">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="502" y="412" as="sourcePoint"/>
+                        <mxPoint x="659.9999999999999" y="412" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="498" y="439"/>
+                            <mxPoint x="535" y="419"/>
+                            <mxPoint x="578" y="413"/>
+                            <mxPoint x="648" y="419"/>
+                            <mxPoint x="687" y="436"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="50">
+                    <mxGeometry width="20" height="14" relative="1" as="geometry">
+                        <mxPoint x="-10" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="&lt;font color=&quot;#e51400&quot;&gt;&lt;b&gt;HTTP&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="819" y="450" width="49" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="endArrow=classic;html=1;strokeColor=#B20000;fillColor=#e51400;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="785.0000000000002" y="483" as="sourcePoint"/>
+                        <mxPoint x="912" y="483" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="shape=message;html=1;outlineConnect=0;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="53">
+                    <mxGeometry width="20" height="14" relative="1" as="geometry">
+                        <mxPoint x="-10" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;HTTP&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#e51400;" vertex="1" parent="1">
+                    <mxGeometry x="307" y="446.75" width="49" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;SMTP&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#e51400;" vertex="1" parent="1">
+                    <mxGeometry x="569" y="377" width="51" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Web应用&lt;br&gt;如网易邮箱网页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="884" y="508" width="102" height="41" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

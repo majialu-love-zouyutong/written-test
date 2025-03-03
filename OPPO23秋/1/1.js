@@ -8,9 +8,9 @@ let obj1 = {
 let obj2 = {
   name: '李四',
   getName() {
-    return super.getName();
+    // return super.getName();
     // // 相当于
-    // return this.__proto__.getName.call(this);
+    return this.__proto__.getName.call(this);
   },
 };
 
